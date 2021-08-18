@@ -1,0 +1,9 @@
+package playerRepository;
+
+public interface FootballControllerInterface {
+
+	void addPlayer();
+
+	void formTeam();
+
+}

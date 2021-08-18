@@ -1,0 +1,7 @@
+package exceptions;
+
+public class TeamNotFormedException extends RuntimeException{
+	TeamNotFormedException(String s){
+		super(s);
+	}
+}

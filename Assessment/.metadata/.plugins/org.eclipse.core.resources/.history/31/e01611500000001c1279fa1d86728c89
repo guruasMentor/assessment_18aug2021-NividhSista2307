@@ -1,0 +1,40 @@
+package playerRepository;
+
+import java.util.Scanner;
+
+import model.Player;
+
+public class FootballController implements FootballControllerInterface {
+	static Player[] players = new Player[20];
+	static int pCount;
+
+	
+
+	public void formTeam() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+	public void addPlayer() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the player's SNo");
+		int sNo = sc.nextInt();
+		System.out.println("Enter the name of the player");
+		String name = sc.next();
+		System.out.println("Enter the category of the player");
+		String category = sc.next();
+		System.out.println("Enter the Rank of the player");
+		int rank = sc.nextInt();
+
+		// Creating an player object with the input given by the user
+		Player pl = new Player();
+		pl.setsNo(sNo);
+		pl.setName(name);
+		pl.setCategory(category);
+		pl.setRank(rank);
+		
+	}
+	
+}

@@ -1,0 +1,10 @@
+package playerRepository;
+
+public class FootballControllerFactory {
+
+	public static FootballControllerInterface createObject() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package playerRepository;
+
+public interface FootballControllerInterface {
+
+}
