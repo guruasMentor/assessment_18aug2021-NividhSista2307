@@ -40,4 +40,6 @@ public class Player {// objects of player database
 		this.rank = rank;
 	}
 
+	// Mentor Comment: equals(), hashCode(),  toString() should be implemented
+	
 }

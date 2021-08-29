@@ -20,7 +20,7 @@ public class FootballView {
 			System.out.println("Welcome! Please select the action you want to perform");
 			System.out.println("Press 1 to Add players to the Repository");
 			System.out.println("Press 2 to Form team");
-			int s = sc.nextInt();
+			int s = sc.nextInt(); // Mentor Comment: use meaningfull name for variable like userChoice
 
 			FootballControllerInterface fc = FootballControllerFactory.createObject();
 			switch (s) {
@@ -30,6 +30,8 @@ public class FootballView {
 				break;
 			case 2:
 				Player[] players = fc.formTeam();
+
+			// Mentor Comment: default case ?
 			}
 			System.out.println("Do you want to continue y/n?");
 			ss = sc.next();
